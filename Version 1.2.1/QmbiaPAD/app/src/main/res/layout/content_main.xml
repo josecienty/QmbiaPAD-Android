@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="cientyproducciones.qmbiapad.MainActivity"
+    android:padding="8dp">
+    <TableLayout
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0dp"
+            android:baselineAligned="false">
+
+            <Button
+                android:text="galleta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad5"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="tom hi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad6"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="tom low"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad7"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Platillo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad8"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:text="bombo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad1"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="conga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad2"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Tumba"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad3"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Guiro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pad4"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

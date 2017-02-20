@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cientyproducciones.qmbiapad.MainActivity" >
+    <item android:title="Perfil de Facebook"
+        android:id="@+id/fb" />
+    <item android:title="Perfil Instagram"
+        android:id="@+id/ig" />
+    <item android:id="@+id/des"
+        android:title="Información"
+        android:orderInCategory="102" />
+</menu>
